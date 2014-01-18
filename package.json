@@ -1,0 +1,30 @@
+{
+  "name": "winremote",
+  "version": "1.0.0",
+  "description": "HTML5+Node.js remote desktop for Windows",
+  "bin": "./server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RReverser/winremote.git"
+  },
+  "keywords": [
+    "remote",
+    "desktop",
+    "control",
+    "mouse",
+    "windows"
+  ],
+  "author": "Ingvar Stepanyan <me@rreverser.com> (http://rreverser.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RReverser/winremote/issues"
+  },
+  "dependencies": {
+    "socket.io": "~0.9.16",
+    "facebook-client": "~1.6.1",
+    "node-ffi": "git://github.com/rbranson/node-ffi.git#0.5"
+  }
+}
